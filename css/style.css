@@ -79,7 +79,7 @@ div
 
 
 
-div.introduction {
+.introduction {
     border-radius: 15px;   /* Curves the edges with a 15px radius */
     margin-top: 15px;      /* Adds a 15px margin at the top */
     line-height: 2;        /* Sets the line height to double spacing */
