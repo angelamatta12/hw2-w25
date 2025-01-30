@@ -46,7 +46,7 @@ div
 
 
 
-.red {
+div .red {
     background-color: #FF0000;  
     text-align: right;          
     margin-left: 50px;          
@@ -54,7 +54,7 @@ div
     border-left: 5px solid white!important; 
 }
 
-.blue {
+div .blue {
     background-color: #0000FF;  
     text-align: left;          
     margin-right: 50px;        
@@ -64,12 +64,12 @@ div
 }
 
 
-.blue h2{
+div .blue h2{
     color: #C4C4C4;
 }
 
 
-.yellow {
+div .yellow {
     background-color: #FFFF00; 
     text-align: right;         
     margin-left: 50px;         
@@ -78,7 +78,7 @@ div
     color: #707070;
 }
 
-.green {
+div .green {
     background-color: #008500; 
     text-align: left;          
     margin-right: 50px;        
