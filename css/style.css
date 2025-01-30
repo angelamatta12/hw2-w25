@@ -37,6 +37,15 @@ div
 }
 
 
+
+.introduction {
+    border-radius: 15px;   /* Curves the edges with a 15px radius */
+    margin-top: 15px;      /* Adds a 15px margin at the top */
+    line-height: 2;        /* Sets the line height to double spacing */
+}
+
+
+
 div.red {
     background-color: #FF0000;  
     text-align: right;          
@@ -51,11 +60,6 @@ div.blue {
     margin-right: 50px;        
     border-right: 5px solid white;  
     border-top: 2px solid white;  
-    color: #C4C4C4;
-}
-
-
-h2.blue{
     color: #C4C4C4;
 }
 
@@ -76,18 +80,6 @@ div.green {
     border-right: 5px solid white !important;  
     border-top: 2px solid white !important;  
 }
-
-/*:not(.red):not(.blue):not(.green):not(.yellow)*/
-
-
-
-
-.introduction {
-    border-radius: 15px;   /* Curves the edges with a 15px radius */
-    margin-top: 15px;      /* Adds a 15px margin at the top */
-    line-height: 2;        /* Sets the line height to double spacing */
-}
-
 
 
 footer {
