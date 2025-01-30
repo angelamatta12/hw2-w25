@@ -73,7 +73,7 @@ div:not(.red):not(.blue):not(.green):not(.yellow)
  {
     min-height: 125px; /* Ensures the div is at least 125px tall */
     padding: 20px;     /* Adds 20px of padding on all sides */
-    border: 3px #FFFFFF; /* Adds a 3px solid white border around the div */
+    border: 3px solid white; /* Adds a 3px solid white border around the div */
 }
 
 
