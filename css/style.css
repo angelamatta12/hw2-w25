@@ -30,20 +30,26 @@ img {
 }
 
 
+div {
+    min-height: 125px; /* Ensures the div is at least 125px tall */
+    padding: 20px;     /* Adds 20px of padding on all sides */
+    border: 3px #FFFFFF; /* Adds a 3px solid white border around the div */
+}
+
 .red {
     background-color: #FF0000;  
     text-align: right;          
     margin-left: 50px;          
-    border-bottom: 2px #FFFFFF ;   
-    border-left: 5px #FFFFFF ;     
+    border-bottom: 2px solid white;  
+    border-left: 5px solid white;  
 }
 
 .blue {
     background-color: #0000FF;  
     text-align: left;          
     margin-right: 50px;        
-    border-right: 5px #FFFFFF ;   
-    border-top: 2px #FFFFFF ;     
+    border-right: 5px solid white;  
+    border-top: 2px solid white;  
     color: #C4C4C4;
 }
 
@@ -55,8 +61,8 @@ img {
     background-color: #FFFF00; 
     text-align: right;         
     margin-left: 50px;         
-    border-bottom: 2px #FFFFFF ;  
-    border-left: 5px #FFFFFF ;    
+    border-bottom: 2px solid white;  
+    border-left: 5px solid white;  
     color: #707070;
 }
 
@@ -64,16 +70,10 @@ img {
     background-color: #008500; 
     text-align: left;          
     margin-right: 50px;        
-    border-right: 5px #FFFFFF ;   
-    border-top: 2px #FFFFFF ;  
+    border-right: 5px solid white;  ;   
+    border-top: 2px solid white;  
 }
 
-
-div {
-    min-height: 125px; /* Ensures the div is at least 125px tall */
-    padding: 20px;     /* Adds 20px of padding on all sides */
-    border: 3px #FFFFFF; /* Adds a 3px solid white border around the div */
-}
 
 .introduction {
     border-radius: 15px;   /* Curves the edges with a 15px radius */
