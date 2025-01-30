@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White font */
+    margin: 20px 20px 0 20px; /* 20px on top and sides, none on the bottom */
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center; /* Center the text horizontally */
+    padding: 15px; /* Add 15px padding around */
+}
+
+h2 {
+    font-size: 30px;
+    color: #0D0D0D; /* Dark gray color */
+}
+
+p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto; /* centers the image */
+    border: 10px dashed white;
+}
+
+div {
+    min-height: 125px; /* Ensures the div is at least 125px tall */
+    padding: 20px;     /* Adds 20px of padding on all sides */
+    border: 3px solid white; /* Adds a 3px solid white border around the div */
+}
+
+.introduction {
+    border-radius: 15px;   /* Curves the edges with a 15px radius */
+    margin-top: 15px;      /* Adds a 15px margin at the top */
+    line-height: 2;        /* Sets the line height to double spacing */
+}
+
+.red {
+    background-color: #FF0000;  /* Sets the background color to red using its hexadecimal value */
+    text-align: right;          /* Aligns the text to the right */
+    margin-left: 50px;          /* Adds a 50px left margin */
+    border-bottom: 2px solid;   /* Adds a solid 2px border at the bottom */
+    border-left: 5px solid;     /* Adds a solid 5px border on the left */
+}
+
+.blue {
+    background-color: #0000FF; /* Sets the background color to blue using its hexadecimal value */
+    text-align: left;          /* Aligns the text to the left */
+    margin-right: 50px;        /* Adds a 50px margin on the right */
+    border-right: 5px solid;   /* Adds a solid 5px border on the right */
+    border-top: 2px solid;     /* Adds a solid 2px border on the top */
+    color: #C4C4C4;
+}
+
+.blue h2{
+    color: #C4C4C4;
+
+}
+
+.yellow {
+    background-color: #FFFF00; /* Sets the background color to yellow using its hexadecimal value */
+    text-align: right;         /* Aligns the text to the right */
+    margin-left: 50px;         /* Adds a 50px left margin */
+    border-bottom: 2px solid;  /* Adds a solid 2px border at the bottom */
+    border-left: 5px solid;    /* Adds a solid 5px border on the left */
+    color: #707070;
+}
+
+.green {
+    background-color: #008500; /* Sets the background color to one of the specified green hex values */
+    text-align: left;          /* Aligns the text to the left */
+    margin-right: 50px;        /* Adds a 50px right margin */
+    border-right: 5px solid;   /* Adds a solid 5px border on the right */
+    border-top: 2px solid;     /* Adds a solid 2px border at the top */
+}
+
+footer {
+    background: linear-gradient(
+        to right, 
+        #000000 0%, 
+        #0000FF 25%, 
+        #0066FF 70%, 
+        #000000 100%
+    ); /* Creates a linear gradient background */
+    border: 5px solid white; /* Adds a 5px solid white border */
+}
+
+footer p {
+    font-size: 20px;         /* Sets the font size to 20 pixels */
+    text-align: right;       /* Aligns the text to the right */
+    padding: 15px 15px 15px 0; /* Applies padding: top 15px, right 15px, bottom 15px, left 0 */
+}
