@@ -45,19 +45,19 @@ div {
     background-color: #FF0000;  /* Sets the background color to red using its hexadecimal value */
     text-align: right;          /* Aligns the text to the right */
     margin-left: 50px;          /* Adds a 50px left margin */
-    border-bottom: 2px solid;   /* Adds a solid 2px border at the bottom */
-    border-left: 5px solid;     /* Adds a solid 5px border on the left */
-    !important;
+    border-bottom: 2px solid !important;   /* Adds a solid 2px border at the bottom */
+    border-left: 5px solid !important;     /* Adds a solid 5px border on the left */
+   
 }
 
 .blue {
     background-color: #0000FF; /* Sets the background color to blue using its hexadecimal value */
     text-align: left;          /* Aligns the text to the left */
     margin-right: 50px;        /* Adds a 50px margin on the right */
-    border-right: 5px solid;   /* Adds a solid 5px border on the right */
-    border-top: 2px solid;     /* Adds a solid 2px border on the top */
+    border-right: 5px solid  !important;   /* Adds a solid 5px border on the right */
+    border-top: 2px solid  !important;     /* Adds a solid 2px border on the top */
     color: #C4C4C4;
-    !important;
+    
 }
 
 .blue h2{
@@ -69,8 +69,8 @@ div {
     background-color: #FFFF00; /* Sets the background color to yellow using its hexadecimal value */
     text-align: right;         /* Aligns the text to the right */
     margin-left: 50px;         /* Adds a 50px left margin */
-    border-bottom: 2px solid;  /* Adds a solid 2px border at the bottom */
-    border-left: 5px solid;    /* Adds a solid 5px border on the left */
+    border-bottom: 2px solid  !important;  /* Adds a solid 2px border at the bottom */
+    border-left: 5px solid  !important;    /* Adds a solid 5px border on the left */
     color: #707070;
     !important;
 }
@@ -79,8 +79,8 @@ div {
     background-color: #008500; /* Sets the background color to one of the specified green hex values */
     text-align: left;          /* Aligns the text to the left */
     margin-right: 50px;        /* Adds a 50px right margin */
-    border-right: 5px solid;   /* Adds a solid 5px border on the right */
-    border-top: 2px solid; /* Adds a solid 2px border at the top */
+    border-right: 5px solid  !important;   /* Adds a solid 5px border on the right */
+    border-top: 2px solid  !important; /* Adds a solid 2px border at the top */
     !important;
 }
 
