@@ -47,11 +47,11 @@ div.blue {
     color: #C4C4C4;
 }
 
-/*
-.blue h2 {
+
+h2.blue{
     color: #C4C4C4;
 }
-*/
+
 
 div.yellow {
     background-color: #FFFF00; 
@@ -66,8 +66,8 @@ div.green {
     background-color: #008500; 
     text-align: left;          
     margin-right: 50px;        
-    border-right: 5px solid white;  ;   
-    border-top: 2px solid white;  
+    border-right: 5px solid white !important;  
+    border-top: 2px solid white !important;  
 }
 
 /*:not(.red):not(.blue):not(.green):not(.yellow)*/
